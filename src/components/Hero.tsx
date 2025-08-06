@@ -16,14 +16,14 @@ const Hero = () => {
           {/* Content */}
           <div className="text-center lg:text-right">
             <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
-              <Star className="h-4 w-4 text-yellow-300" />
+              <Star className="h-4 w-4 text-success" />
               <span className="text-sm font-medium">منصة تعليمية معتمدة</span>
             </div>
 
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
               تعلم المهارات
               <br />
-              <span className="text-yellow-300">المستقبلية</span>
+              <span className="text-success-light">المستقبلية</span>
               <br />
               معنا
             </h1>

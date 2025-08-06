@@ -52,7 +52,7 @@ const CourseCard = ({
         {/* Course Stats */}
         <div className="flex items-center gap-4 mb-4 text-sm text-muted-foreground">
           <div className="flex items-center gap-1">
-            <Star className="h-4 w-4 text-yellow-500 fill-current" />
+            <Star className="h-4 w-4 text-success fill-current" />
             <span className="font-medium">{rating}</span>
           </div>
           <div className="flex items-center gap-1">
