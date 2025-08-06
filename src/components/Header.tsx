@@ -9,21 +9,21 @@ const Header = () => {
           {/* Logo and Navigation */}
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
-              <BookOpen className="h-8 w-8 text-primary" />
+              <BookOpen className="h-8 w-8 text-yellow" />
               <h1 className="text-xl font-bold text-foreground">منصة التعلم</h1>
             </div>
             
             <nav className="hidden md:flex items-center gap-6">
-              <a href="#" className="text-foreground hover:text-primary transition-colors font-medium">
+              <a href="#" className="text-foreground hover:text-yellow transition-colors font-medium border-b-2 border-yellow">
                 الرئيسية
               </a>
-              <a href="#" className="text-foreground hover:text-primary transition-colors font-medium">
+              <a href="#" className="text-foreground hover:text-yellow transition-colors font-medium">
                 الدورات
               </a>
-              <a href="#" className="text-foreground hover:text-primary transition-colors font-medium">
+              <a href="#" className="text-foreground hover:text-yellow transition-colors font-medium">
                 لوحة التحكم
               </a>
-              <a href="#" className="text-foreground hover:text-primary transition-colors font-medium">
+              <a href="#" className="text-foreground hover:text-yellow transition-colors font-medium">
                 حول المنصة
               </a>
             </nav>
@@ -44,7 +44,7 @@ const Header = () => {
             {/* Actions */}
             <Button variant="ghost" size="sm" className="relative">
               <Bell className="h-5 w-5" />
-              <span className="absolute -top-1 -right-1 bg-warning text-warning-foreground rounded-full text-xs w-5 h-5 flex items-center justify-center">
+              <span className="absolute -top-1 -right-1 bg-yellow text-yellow-foreground rounded-full text-xs w-5 h-5 flex items-center justify-center font-medium">
                 3
               </span>
             </Button>

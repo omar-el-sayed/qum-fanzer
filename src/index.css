@@ -34,8 +34,12 @@ All colors MUST be HSL.
     --success-light: 158 64% 62%;
 
     /* Warning - Warm orange */
-    --warning: 25 95% 53%;
+    --warning: 45 93% 58%;
     --warning-foreground: 0 0% 100%;
+
+    /* Yellow accent for header */
+    --yellow: 48 96% 53%;
+    --yellow-foreground: 0 0% 100%;
 
     /* Muted tones */
     --muted: 215 25% 95%;
