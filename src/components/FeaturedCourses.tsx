@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CourseCard from "./CourseCard";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
@@ -94,9 +95,11 @@ const FeaturedCourses = () => {
 
         {/* View All Button */}
         <div className="text-center">
-          <Button size="lg" variant="outline" className="group">
-            عرض جميع الدورات
-            <ArrowLeft className="h-5 w-5 mr-2 group-hover:translate-x-1 transition-transform" />
+          <Button size="lg" variant="outline" className="group" asChild>
+            <Link to="/courses">
+              عرض جميع الدورات
+              <ArrowLeft className="h-5 w-5 mr-2 group-hover:translate-x-1 transition-transform" />
+            </Link>
           </Button>
         </div>
       </div>
