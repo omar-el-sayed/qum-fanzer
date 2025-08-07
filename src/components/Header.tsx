@@ -49,13 +49,14 @@ const Header = () => {
               </span>
             </Button>
 
-            <Button variant="ghost" size="sm">
-              <User className="h-5 w-5" />
-            </Button>
-
-            <Button className="hidden md:inline-flex bg-gradient-primary hover:opacity-90 transition-opacity">
-              تسجيل الدخول
-            </Button>
+            <div className="flex items-center gap-2">
+              <Button variant="ghost" size="sm" asChild>
+                <a href="/login">تسجيل الدخول</a>
+              </Button>
+              <Button variant="default" size="sm" asChild>
+                <a href="/register">إنشاء حساب</a>
+              </Button>
+            </div>
 
             <Button variant="ghost" size="sm" className="md:hidden">
               <Menu className="h-5 w-5" />
